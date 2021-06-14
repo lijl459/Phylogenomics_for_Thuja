@@ -1,0 +1,10 @@
+R -e 'library(evobiR); CalcPopD(alignment = "T.occidentalis-T.koraiensis-T.plicata.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.occidentalis-T.koraiensis-T.plicata.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.occidentalis-T.koraiensis-T.standishii.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.occidentalis-T.koraiensis-T.standishii.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.occidentalis-T.koraiensis-T.sutchuenensis.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.occidentalis-T.koraiensis-T.sutchuenensis.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.plicata-T.koraiensis-T.standishii.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.plicata-T.koraiensis-T.standishii.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.plicata-T.koraiensis-T.sutchuenensis.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.plicata-T.koraiensis-T.sutchuenensis.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.plicata-T.occidentalis-T.standishii.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.plicata-T.occidentalis-T.standishii.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.plicata-T.occidentalis-T.sutchuenensis.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.plicata-T.occidentalis-T.sutchuenensis.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.sutchuenensis-T.standishii-T.koraiensis.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.sutchuenensis-T.standishii-T.koraiensis.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.sutchuenensis-T.standishii-T.occidentalis.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.sutchuenensis-T.standishii-T.occidentalis.fas.out
+R -e 'library(evobiR); CalcPopD(alignment = "T.sutchuenensis-T.standishii-T.plicata.fas", sig.test = "J", block.size = 10000, replicate=100)' >T.sutchuenensis-T.standishii-T.plicata.fas.out
