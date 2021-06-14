@@ -1,3 +1,6 @@
 Work flow of phylogenomics for Cupressus species
-Step1: Assembling single copy genes via hybpiper
-Step2: Building species tree using single copy genes
+#1: Assembling single copy genes via hybpiper
+#2: Building species tree using single copy genes
+#3: Simulating nuclear gene trees under ILS
+#4: Calculating gene flow usng phylonet and abba-baba method
+#5: Divergence dating using mcmctree
